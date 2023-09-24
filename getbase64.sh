@@ -1,4 +1,4 @@
-. setenv.sh
+. ./setenv.sh
 
 echo "Root CA certificate :"
 cat ${ROOT_CA_CRT_PATH} | base64 -w 0

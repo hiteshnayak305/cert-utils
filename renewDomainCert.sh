@@ -1,4 +1,4 @@
-. setenv.sh
+. ./setenv.sh
 
 # Ask confirmation
 echo "Domain is valid till : "

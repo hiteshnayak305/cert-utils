@@ -1,4 +1,4 @@
-. setenv.sh
+. ./setenv.sh
 
 # do nothing if already exists
 if [[ -f ${ROOT_CA_CRT_PATH} ]]

@@ -1,4 +1,4 @@
-. secret.sh
+. ./secret.sh
 
 export BUILD_PATH=build
 # root
