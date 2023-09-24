@@ -10,3 +10,4 @@ SSL cert utilities
   - generateDomainKey.sh
   - generateDomainCert.sh
   - renewDomainCert.sh
+  - getbase64.sh -- get base64 encoded strings to be used in kubernetes secrets
