@@ -1,2 +1,4 @@
 build
 secret.sh
+root-req.conf
+req.conf
