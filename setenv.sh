@@ -3,6 +3,7 @@
 export BUILD_PATH=build
 # root
 export ROOT_CA_KEY_PATH=build/root/root.key
+export ROOT_CA_DEC_KEY_PATH=build/root/root.dec.key
 export ROOT_CA_CRT_PATH=build/root/root.crt
 export ROOT_CA_CRT_OLD_PATH=build/root/root.crt.bak
 export ROOT_CA_CSR_PATH=build/root/root.csr
@@ -11,6 +12,7 @@ export ROOT_CA_PASSWORD=${PASS}
 export ROOT_CA_EXPIRY_DAYS=3650
 # domain
 export DOMAIN_KEY_PATH=build/domain/domain.key
+export DOMAIN_DEC_KEY_PATH=build/domain/domain.dec.key
 export DOMAIN_CRT_PATH=build/domain/domain.crt
 export DOMAIN_CRT_OLD_PATH=build/domain/domain.crt.bak
 export DOMAIN_CSR_PATH=build/domain/domain.csr
